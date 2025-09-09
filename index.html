@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>MANACO - Calzado de calidad</title>
+  <meta name="description" content="Descubre calzado MANACO: zapatos, tenis y mochilas diseñados para acompañar tu estilo con calidad y comodidad. Compra en línea con confianza.">
+
+  <meta property="og:title" content="MANACO - Calzado de calidad en Bolivia">
+  <meta property="og:description" content="Zapatos, tenis y mochilas MANACO: estilo y comodidad en cada paso.">
+  <meta property="og:image" content="imagenes dentro de la carpeta img">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+  <header>
+    <h1>MANACO</h1>
+    <button class="menu-toggle">☰</button>
+    <nav class="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <p>Calzado que impulsa tu paso</p>
+    </section>
+
+    <section class="productos">
+      <h2>Productos destacados</h2>
+      <ul class="productos-lista">
+        <li>
+          <article>
+            <img src="/img/producto.PNG" alt="Zapatos negros de cuero talla 41">
+            <h3>Zapatos de cuero</h3>
+            <p class="precio">$00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src="/img/producto.PNG" alt="Tennis azules de gamuza talla 42">
+            <h3>Tennis azules</h3>
+            <p class="precio">$00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <img src="/img/producto.PNG" alt="Mochila negra de cuero bolcado de 60 cm">
+            <h3>Mochila de cuero</h3>
+            <p class="precio">$00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2025 MANACO</p>
+  </footer>
+  <script>
+    // Toggle menú hamburguesa
+    const toggleBtn = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".menu");
+    toggleBtn.addEventListener("click", () => {
+      menu.classList.toggle("activo");
+    });
+  </script>
+</body>
+</html>
