@@ -19,8 +19,8 @@
 
   <header>
     <h1>MANACO</h1>
-
-    <nav>
+    <button class="menu-toggle">☰</button>
+    <nav class="menu">
       <a href="#">Inicio</a>
       <a href="#">Servicios</a>
       <a href="#">Contacto</a>
@@ -66,5 +66,13 @@
   <footer>
     <p>Copyright 2025 MANACO</p>
   </footer>
+  <script>
+    // Toggle menú hamburguesa
+    const toggleBtn = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".menu");
+    toggleBtn.addEventListener("click", () => {
+      menu.classList.toggle("activo");
+    });
+  </script>
 </body>
 </html>
