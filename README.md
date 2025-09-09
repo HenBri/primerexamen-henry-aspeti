@@ -16,3 +16,14 @@ Segun WebAiM el contraste entre negro y blanco tiene un resultado de 8.59:1
 mejore los alt de las imagenes, sin embargo deberian de adaptarce al tipo de producto 
 
 ademaas puse un contraste al pasar el mouse sobre los botones (header como comprar)
+
+
+# Seo
+
+El titulo es único y contiene la marca + palabras clave
+La parteb de descriptino tiene 150 caracteres con un mensaje atractivo para mejorar el CTR en buscadores.
+Open Graph para compartir en redes sociales
+Añadí og:title, og:description y og:image con un placeholder (como no estamos usando imagenes reales e quedo asi). Esto asegura buena vista previa
+Jerarquía semántica de títulos (H1/H2/H3)
+Los H3 identifican cada producto.
+
